@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width:980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/background.jpeg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+	
+}
+
+button{
+	display:block;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 6px;
+	border-radius: 200px;
+	background-color:rgba(255,255,255,0.1);
+	color:#fff;
+	margin:20px auto;
+	box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+	cursor:pointer;
+}
+button:focus {
+    outline:none;
+}
+
+button:hover {
+	background-color:#222
+}
+
+.listen{
+	width:247px;
+	height:74px;
+	font-size:35px;
+}
+.donate{
+	width:200px;
+	height:60px;
+	font-size:25px;
+}
+
+header {
+	font-family: "open-sans", futura, sans-serif;
+  	color: #fff;
+	font-size: 23px;
+	/*border: solid;*/
+	margin-top:10px;
+}
+h1 {
+	font-family: "open-sans", futura, sans-serif;
+  	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+footer {
+	font-family: "open-sans", futura, sans-serif;
+  	color: #fff;
+	font-size: 13px;
+	
+}
+ul{
+	list-style-type: none;
+  	margin: 0 auto;
+  	padding: 0;
+  	overflow: hidden;
+}
+li{
+	display:block;
+	float:left;
+	text-align: center;
+	padding:0 10px;
+}
+
+iframe{
+	display:block;
+	margin:50px auto;
+	
+}
+.grid-container1{
+	display:grid;
+	grid-template-columns: 22% auto 22%;
+}
+.grid-container2{
+	display:grid;
+	grid-template-columns: 50% 50%
+}
+.logo{
+	padding-top:5px;
+}
+.navbar{
+	padding-top:5px;
+	text-align:center;
+}
+.socials{
+	padding-left:10px;
+}
+
+.newrelease{
+	display:block; 
+	margin:0 auto;
+	box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4)
+}
+.profilepic{
+	margin:100px auto;
+	box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+.abouttext{
+	margin:100px auto;
+	color:#fff;
+	background-color:rgba(0,0,0,0.2);
+	padding:20px;
+	text-align:center;
+}
+/*.grid-item{
+	color:aqua
+}
